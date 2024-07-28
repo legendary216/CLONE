@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solution</title>
+    <style>
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .logo img{
+            
+            width: 180px;
+        }
+
+        .right ul{
+            display: flex;
+            align-items: center;
+            font-family: "Segoe UI";
+            gap : 30px;
+            
+        }
+
+        .right ul li{
+            list-style: none;
+            display: flex;
+        }
+
+        main{
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        main h2{
+            font-size: 50px;
+            font-family: "Segoe UI";
+            font-weight: 400;
+        }
+
+        .review{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .review img{
+            position: relative;
+            top: 5px;
+            left: 20px;
+        }
+
+        main pre{
+            font-size: 22px;
+        }
+
+        .but button{
+            padding: 18px;
+            margin: 5px;
+            color: white;
+            background-color: rgb(9, 166, 189);
+            border: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .but1:hover
+        {
+            background-color: rgb(7, 146, 168);
+        }
+
+        .mid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            transform: translateX(-180px);
+        }
+
+        .mid p{
+            padding-left: 25px;
+            font-size: 25px;
+            font-family: "Segoe UI";
+        }
+
+        .mid span{
+            position: relative;
+            top: 5px;
+            left: 8px;
+            font-size: 14.4px;
+            color: rgb(34, 34, 34);
+            font-family: "Segoe UI";
+        }
+
+        .grid{
+            display: grid;  
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 200px 200px 200px;
+            justify-content: center;
+        }
+
+        .grid .box{
+            border: none;
+            height: 169.8px;
+            width: 270px;
+            background-color: #f9f9f9;
+        }
+        
+        .grid .box h3{
+            padding-top: 15px;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: "Segoe UI";
+        }
+
+        .grid .box p{
+            color: #222222;;
+            font-size: 12px;
+            font-weight: 500;
+            font-family: "Segoe UI";
+        }
+
+        .grid .box button{
+            padding: 8px 16px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: #5cb85c;
+            font-weight: 600;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="UE-Logo-1.webp" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                    <li>Pricing
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>Resources
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>About us
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>Security and compliance
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>
+                        <img src="Lang.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="review">
+            <h2>Download UltraEdit for Windows</h2>
+            <img src="Reviews.png" alt="">
+        </div>
+        <pre>Download and try UltraEdit before you buy it! this Download includes the full Windows
+            version of the text editor. </pre>
+
+            <div class="but">
+                <button class="but1">download mac or linux version</button>
+            </div>
+
+        <div class="mid">
+            <img src="UE.png" alt="" width="60px">
+            <p>Download UltraEdit</p>
+            <span>v2024.0(released 04/19/2024) | Hotfix</span>
+        </div>
+
+        <div class="grid">
+            <div class="box">
+                <h3>English</h3>
+                <a href="ue_english_64.exe"><button style="margin-top: 28px;">Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>Deutsch</h3>
+                <p>German</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>Italiano</h3>
+                <p>Italian</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>Español</h3>
+                <p>Spanish</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>français</h3>
+                <p>French</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>Português brasileiro</h3>
+                <p>Brazilian Portuguese</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>日本</h3>
+                <p>Japanese</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>한국어</h3>
+                <p>Korean</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            <div class="box">
+                <h3>中国</h3>
+                <p>Chinese</p>
+                <a href="ue_english_64.exe"><button>Download 64-bit</button></a>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>

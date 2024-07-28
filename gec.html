@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GEC</title>
+        <style>
+            
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            main{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 15vh;
+                align-items: center;
+            }
+
+
+        .left{
+            color: white ;
+            font-family: Montserrat, sans-serif;
+            font-size: 40px;
+            position: relative;
+            letter-spacing: 2px;
+        }
+
+        .left img{
+            width: 750px;
+            height: 500px;
+            border-radius: 5px;
+            filter: brightness(50%);
+        }
+
+        .left h2{
+            position: absolute;
+            top: 200px;
+            margin-left: 20px;
+            text-transform: uppercase;
+            font-size: 45px;
+            font-weight: 700;
+        }
+        
+        .left h1{
+            position: absolute;
+            top: 228px;
+            margin-left: 20px;
+            font-weight: 900;
+        }
+       
+        .right{
+            width: 450px;
+            height: 570px;
+            border: 2px solid black;
+            position: relative;
+            left: 155px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: poppins;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,.1);
+            position: relative;
+        }
+
+        .right .logo{
+            margin: 20px;
+        }
+
+        .right h2{
+            font-weight: 700;
+        }
+
+        .right .details label input{
+            padding: 14px;
+            margin-top: 5px;
+            width: 240px;
+        }
+
+        label{
+            font-size: small;
+            font-weight: bold;
+            position: relative;
+        }
+
+        label svg{
+            position: absolute;
+            top: 35px;
+            right: 9px;
+        }
+        
+        .right .robot{
+            border: 2px solid gray;
+            background-color: rgb(248, 248, 248);
+            width: 230px;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            right: 18px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: small;
+            justify-content: space-between;
+        }
+
+        .right .robot p{
+           position: relative;
+           right: 35px;
+        }
+
+        .right .robot img{
+            margin-right: 10px;
+        }
+
+        .right .robot .sbox{
+            border: 2px solid gray;
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        .right .but{
+            border: none;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 115px;
+        }
+        
+        .right .but button{
+            border: none;
+            color: white;
+            background-color: #7b8590;
+            width: 240px;
+            padding: 10px 80px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <img src="college-front.072f906fd430df8b5999.jpg" alt="">
+            <h2>welcome to</h2>
+            <h1>GECIS</h1>
+        </div>
+
+
+        <div class="right">
+
+            <div class="logo">
+                <img src="logo.png" alt="" width="110" >
+            </div>
+
+            <h2>Login</h2>
+
+            <form class="details">
+                <label for="email"  >Email
+                    <br>
+                    <input type="text" id="email" placeholder="Enter your Email">
+                </label>
+                
+                <br><br>
+                <label for="password"   >Password
+                    <br>
+                    <input type="password" id="password" placeholder="Enter your Password" >
+                    <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L22 22" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.71277 6.7226C3.66479 8.79527 2 12 2 12C2 12 5.63636 19 12 19C14.0503 19 15.8174 18.2734 17.2711 17.2884M11 5.05822C11.3254 5.02013 11.6588 5 12 5C18.3636 5 22 12 22 12C22 12 21.3082 13.3317 20 14.8335" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14 14.2362C13.4692 14.7112 12.7684 15.0001 12 15.0001C10.3431 15.0001 9 13.657 9 12.0001C9 11.1764 9.33193 10.4303 9.86932 9.88818" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </label>
+            </form>
+
+            <div class="robot">
+                <div class="sbox"></div>
+                <p>I'm not a robot</p>
+                <img src="capcha.png" alt="" width="25px" height="25px">
+            </div>
+
+            <div class="but">
+                <button>Login</button>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
